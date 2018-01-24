@@ -1,6 +1,6 @@
 FROM kamsz/restic:0.7.3
 LABEL MAINTAINER="Adam Drozdz <adrozdz@container-labs.com>"
-LABEL NAME="rabbitmq_autocluster"
+LABEL NAME="marathon_backup"
 
 RUN apk add --no-cache curl jq
 
